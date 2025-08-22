@@ -1,25 +1,25 @@
-Dataset
+## Dataset
 
-Name: glove Computer Vision Model -daatset
+#### Name: glove Computer Vision Model -daatset
 
-Source:https://universe.roboflow.com/ztar-rcuht/glove-klt3a/dataset/1
+### Source:https://universe.roboflow.com/ztar-rcuht/glove-klt3a/dataset/1
 
-Structure: 
+## Structure: 
 -Standard YOLO format 
 - the data has 8 classes , convetrted that to 2 classe according to our needs.
 
    
-Classes:
+## Classes:
 0 : with_glove
 1: without_glove
 
-Model Ued : YOLO
+## Model Ued : YOLO
 
-Architecture: YOLOv8n (Ultralytics)
+## Architecture: YOLOv8n (Ultralytics)
 
-Training script: train_yolo.py
+## Training script: train_yolo.py
 
-Hyperparameters:
+## Hyperparameters:
 -Epochs: 50
 -Batch size: 16
 -Image size: 640
@@ -27,17 +27,17 @@ Hyperparameters:
 -Learning rate: 0.001
 
 
-Augmentations used : 
+## Augmentations used : 
 -HSV, 
 -scale, 
 -flip, 
 -mosaic
 
-Preprocessing done :
+## Preprocessing done :
 -Converted 8 original classes → 2 classes (classes 0–6 → 0, class 7 → 1).
 
 
-** How to Run
+## ** How to Run
 
 1. Run Inference + Save Results
 python inference.py \
