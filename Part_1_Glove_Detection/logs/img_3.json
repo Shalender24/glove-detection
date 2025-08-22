@@ -1,0 +1,25 @@
+{
+  "filename": "img_3.jpeg",
+  "detections": [
+    {
+      "label": "without_glove",
+      "confidence": 0.9334,
+      "bbox": [
+        9.23,
+        27.6,
+        162.81,
+        223.11
+      ]
+    },
+    {
+      "label": "without_glove",
+      "confidence": 0.2998,
+      "bbox": [
+        9.33,
+        77.76,
+        167.7,
+        214.74
+      ]
+    }
+  ]
+}
